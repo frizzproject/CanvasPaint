@@ -1,0 +1,15 @@
+{
+  "name": "cnvreplaypaint",
+  "version": "1.0.0",
+  "description": "Canvas Paint - JavaScript app for drawing",
+  "main": "app.js",
+  "scripts": {
+    "serve": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Maxim Baranov (MBF)",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "latest"
+  }
+}
