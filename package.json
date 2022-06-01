@@ -5,11 +5,15 @@
   "main": "app.js",
   "scripts": {
     "serve": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --no-source-maps --no-cache",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Maxim Baranov (MBF)",
   "license": "ISC",
   "devDependencies": {
     "parcel": "latest"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
